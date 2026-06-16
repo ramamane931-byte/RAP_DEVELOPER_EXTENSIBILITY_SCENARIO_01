@@ -1,0 +1,18 @@
+@EndUserText.label : 'Table for Giftcard 011'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table ztbl_giftcard {
+
+  key client         : abap.clnt not null;
+  key sap_uuid       : sysuuid_x16 not null;
+  giftcardnumber     : zats_ab_giftcardnum_011 not null;
+  sap_description    : zats_giftcarddesc_011 not null;
+  @Semantics.amount.currencyCode : 'ztbl_giftcard.amount_c'
+  amount_v           : zats_giftcardamnt_011 not null;
+  amount_c           : abap.cuky;
+  local_last_changed : abp_locinst_lastchange_tstmpl;
+  last_changed       : abp_lastchange_tstmpl;
+
+}
