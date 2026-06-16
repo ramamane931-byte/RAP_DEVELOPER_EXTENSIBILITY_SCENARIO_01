@@ -1,0 +1,36 @@
+managed implementation in class zbp_ats_r_giftcard_011 unique;
+strict ( 2 );
+with draft;
+
+define behavior for zats_r_giftcard_011 alias Giftcard
+persistent table ztbl_giftcard
+draft table ztbl_d_giftcard
+etag master LocalLastChanged
+lock master
+total etag LastChanged
+authorization master ( instance, global )
+{
+  field ( readonly ) sapuuid, lastchanged, locallastchanged;
+  field ( numbering : managed ) sapuuid;
+
+  create ( authorization : none );
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ztbl_giftcard
+    {
+      SapUuid          = sap_uuid;
+      Giftcardnumber   = giftcardnumber;
+      SapDescription   = sap_description;
+      AmountV          = amount_v;
+      AmountC          = amount_c;
+      LocalLastChanged = local_last_changed;
+      LastChanged      = last_changed;
+    }
+}
