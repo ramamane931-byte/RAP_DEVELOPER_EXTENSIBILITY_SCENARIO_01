@@ -1,0 +1,55 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo:{
+    typeName: 'Gift card',
+    typeNamePlural: 'Gift Cards',
+    title: { type: #STANDARD, value: 'Giftcardnumber' },
+    description: { type: #STANDARD, value: 'SapDescription' }
+}
+@Search.searchable: true
+annotate entity zats_c_giftcard_011 with
+{
+  @UI.facet: [
+      {
+          id: 'idGift',
+          type: #IDENTIFICATION_REFERENCE,
+          purpose: #STANDARD,
+          position: 10,
+          label: 'Gift card details'
+      }
+  ]
+  @UI.hidden: true
+  SapUuid;
+  @Search.defaultSearchElement: true
+  @UI.selectionField: [{ position: 10 }]
+  @UI.lineItem: [{ position: 10 }]
+  @UI.identification: [{ position: 10 }]
+  @Consumption.valueHelpDefinition: [{
+      entity.name: 'ZATS_I_GIFTCARD_VH',
+      entity.element: 'Giftcardnumber'
+       }]
+  Giftcardnumber;
+  @Search.defaultSearchElement: true
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 20 }]
+  @UI.identification: [{ position: 20 }]
+  SapDescription;
+  @Search.defaultSearchElement: true
+  @UI.selectionField: [{ position: 30 }]
+  @UI.lineItem: [{ position: 30 }]
+  @UI.identification: [{ position: 30 }]
+  AmountV;
+  @UI.selectionField: [{ position: 40 }]
+  @UI.lineItem: [{ position: 40 }]
+  @UI.identification: [{ position: 40 }]
+  @Consumption.valueHelpDefinition: [{
+      entity.name: 'I_CurrencyStdVH',
+      entity.element: 'Currency'
+       }]
+  AmountC;
+  @UI.lineItem: [{ position: 50 }]
+  @UI.identification: [{ position: 50 }]
+  LocalLastChanged;
+  @UI.lineItem: [{ position: 60 }]
+  LastChanged;
+
+}
