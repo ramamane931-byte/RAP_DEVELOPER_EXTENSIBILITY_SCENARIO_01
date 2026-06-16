@@ -1,0 +1,19 @@
+@EndUserText.label : 'Draft table for Gift Card'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table ztbl_d_giftcard {
+
+  key client       : abap.clnt not null;
+  key sapuuid      : sysuuid_x16 not null;
+  giftcardnumber   : zats_ab_giftcardnum_011 not null;
+  sapdescription   : zats_giftcarddesc_011 not null;
+  @Semantics.amount.currencyCode : 'ztbl_d_giftcard.amountc'
+  amountv          : zats_giftcardamnt_011 not null;
+  amountc          : abap.cuky;
+  locallastchanged : abp_locinst_lastchange_tstmpl;
+  lastchanged      : abp_lastchange_tstmpl;
+  "%admin"         : include sych_bdl_draft_admin_inc;
+
+}
