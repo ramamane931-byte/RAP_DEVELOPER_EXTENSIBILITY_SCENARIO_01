@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Defination for Giftcard 011'
+define service ZATS_GIFTCARD_SD_011 {
+  expose zats_c_giftcard_011 as Giftcard;
+  expose ZATS_I_GIFTCARD_VH  as GiftCardHelp;
+  expose I_CurrencyStdVH     as Currency;
+}
