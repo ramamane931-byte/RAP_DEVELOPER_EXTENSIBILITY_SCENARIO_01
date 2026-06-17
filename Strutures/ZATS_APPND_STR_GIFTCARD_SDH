@@ -1,0 +1,9 @@
+@EndUserText.label : 'Append str for gift card 011'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+extend type sdsalesdoc_incl_eew_ps with zats_appnd_str_giftcard_sdh {
+
+  @Semantics.amount.currencyCode : 'zats_appnd_str_giftcard_sdh.zz_giftcardcurrency_sdh'
+  zz_giftcardamount_sdh   : zats_giftcardamnt_011;
+  zz_giftcardcurrency_sdh : abap.cuky;
+
+}
