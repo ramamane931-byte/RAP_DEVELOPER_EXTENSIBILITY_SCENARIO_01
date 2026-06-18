@@ -1,0 +1,5 @@
+CLASS zbp_ats_bhex_giftcard_01 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF r_salesordertp.
+ENDCLASS.
+
+CLASS zbp_ats_bhex_giftcard_01 IMPLEMENTATION.
+ENDCLASS.
