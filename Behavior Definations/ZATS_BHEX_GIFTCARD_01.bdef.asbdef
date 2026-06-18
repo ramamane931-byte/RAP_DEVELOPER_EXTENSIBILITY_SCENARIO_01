@@ -4,7 +4,7 @@ extend behavior for SalesOrder
 {
   action ( authorization : update,
   features : instance )
-  zz_use_gift_card //// dataAction 'zz_use_gift_card'
+  zz_use_gift_card ///// dataAction 'zz_use_gift_card'
     parameter ZATS_AB_ASSIGNGIFTCARDTOSO
     result [0..1] $self;
 
