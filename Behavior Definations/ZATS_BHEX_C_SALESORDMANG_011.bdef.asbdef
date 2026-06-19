@@ -1,0 +1,10 @@
+extension for projection implementation in class zbp_ats_bhex_c_salesordmang_01 unique;
+
+extend behavior for SalesOrder
+{
+  use action zz_use_gift_card;
+}
+
+extend behavior for SalesOrderItem
+{
+}
