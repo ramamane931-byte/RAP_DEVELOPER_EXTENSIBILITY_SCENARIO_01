@@ -8,3 +8,6 @@ SAP RAP Developer Extensibility Scenario: Extend Manage Sales Order standard App
 <img width="536" height="250" alt="image" src="https://github.com/user-attachments/assets/4a74e1c0-7137-44c3-848b-4add678abf22" />
 
 
+### Steps to activate Standard SAP Sales order app:
+
+
