@@ -19,5 +19,4 @@ https://fioriappslibrary.hana.ondemand.com/
 5. Check the generated Z role in PFCG, Grant it to yourself. If you are using ATS server – open the role Z_BR_INTERNAL_SALES_REP and grant to yourself
 6. Launch the Fiori Launchpad to access the app now. - /n/ui2/flp
 7. Launch the app - https://s4hana10.saraswatitechnologies.in:44310/sap/bc/ui2/flp?sap-client=800&sap-language=EN#SalesOrder-manageV2
-<img width="3590" height="390" alt="image" src="https://github.com/user-attachments/assets/2b778b1d-485c-4a34-aec0-65c67ab33027" />
 
