@@ -39,7 +39,7 @@
 <img width="940" height="871" alt="image" src="https://github.com/user-attachments/assets/3e63aad1-53b6-4a26-af93-eb1aeb3a63d4" />
 
 
-### Check these points for Extensibility
+### Check these points for Extensibility:
 
 <img width="940" height="799" alt="image" src="https://github.com/user-attachments/assets/6c489bb1-ba37-4010-9624-dbdb6e653409" />
 
@@ -61,7 +61,7 @@
 
 #### ------------------------------------------------------------------------------------------------------------------------------
 
-### Extend the structure with append include to add custom field - sdsalesdoc_incl_eew_ps
+### Extend the structure with append include to add custom field - sdsalesdoc_incl_eew_ps:
 
 
 <img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/ac2664b4-af66-4c40-91b0-f4e17bb18f55" />
@@ -71,19 +71,19 @@
 
 
 
-### Append structure name should be with postfix ‘SDH’.
+### Append structure name should be with postfix ‘SDH’:
 
 <img width="940" height="407" alt="image" src="https://github.com/user-attachments/assets/c2245367-5021-4f9d-a361-9c5531d8a35c" />
 
 
 
-### From above append structure the zz fields are available in the standard table VBAK.
+### From above append structure the zz fields are available in the standard table VBAK:
 
 <img width="940" height="538" alt="image" src="https://github.com/user-attachments/assets/63e0bcfa-1677-44f1-86b6-d73412f3c398" />
 
 #### ------------------------------------------------------------------------------------------------------------------------------
 
-### Extend first CDS entity using vbak E_SalesDocumentBasic
+### Extend first CDS entity using vbak E_SalesDocumentBasic:
 
 
 <img width="940" height="475" alt="image" src="https://github.com/user-attachments/assets/fe10c6be-8b82-43c8-ad11-d72967581ade" />
@@ -95,7 +95,7 @@
 <img width="940" height="259" alt="image" src="https://github.com/user-attachments/assets/8ac318fa-fab1-400f-a5c3-0f7d3285be56" />
 
 
-### Appended fields visible in the view E_SalesDocumentBasic as well.
+### Appended fields visible in the view E_SalesDocumentBasic as well:
 
 
 <img width="940" height="195" alt="image" src="https://github.com/user-attachments/assets/1e7e1b81-6445-4cc2-ba9d-c6136c186d05" />
@@ -115,7 +115,7 @@
 
 #### ------------------------------------------------------------------------------------------------------------------------------
 
-### Extend first CDS entity using R_SalesOrderTP C_SalesOrderManage
+### Extend first CDS entity using R_SalesOrderTP C_SalesOrderManage:
 
 <img width="940" height="558" alt="image" src="https://github.com/user-attachments/assets/82307dcf-f3b8-4493-a61b-18d7b4996c1d" />
 
@@ -158,12 +158,12 @@
 
 #### ------------------------------------------------------------------------------------------------------------------------------
 
-### Create abstract cds entity (never persist data in db, used as a skeleton to create popup) Abstract entity to show popup on UI Screen
+### Create abstract cds entity (never persist data in db, used as a skeleton to create popup) Abstract entity to show popup on UI Screen:
 
 <img width="940" height="385" alt="image" src="https://github.com/user-attachments/assets/cf28cbb6-168f-4081-9934-2b95b50d98d9" />
 
 
-### Press Ctrl+6 to open SAP GUI in the eclipse
+### Press Ctrl+6 to open SAP GUI in the eclipse:
 
 <img width="940" height="364" alt="image" src="https://github.com/user-attachments/assets/ba842a5f-968e-4c63-a9aa-5bf02e0e2468" />
 
@@ -182,7 +182,7 @@
 
 #### ------------------------------------------------------------------------------------------------------------------------------
 
-### Create Behaviour Extension for R_SalesorderTP
+### Create Behaviour Extension for R_SalesorderTP:
 
 <img width="823" height="491" alt="image" src="https://github.com/user-attachments/assets/9974e76c-0407-4373-8db1-c1f4255c690e" />
 
@@ -208,7 +208,7 @@
 #### ------------------------------------------------------------------------------------------------------------------------------
 
 
-### Implement the Behaviour Class
+### Implement the Behaviour Class:
 
 
 <img width="940" height="312" alt="image" src="https://github.com/user-attachments/assets/5ccbd594-21d1-4174-9bed-d22bc9a8f6ca" />
