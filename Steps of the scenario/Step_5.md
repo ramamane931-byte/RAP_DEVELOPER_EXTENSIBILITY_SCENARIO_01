@@ -1,6 +1,7 @@
 ## Test Data:
 
-<img width="600" height="166" alt="image" src="https://github.com/user-attachments/assets/09de55f2-2b78-4b11-91c4-0d96ae7d517f" />
+<img width="366" height="101" alt="image" src="https://github.com/user-attachments/assets/9201b3e3-4add-4af1-91d4-12cc20836550" />
+
 
 
 ### Button ‘Use Gift Card’ started appearing on the standard Manage Sales Order – Version 2 Application.
